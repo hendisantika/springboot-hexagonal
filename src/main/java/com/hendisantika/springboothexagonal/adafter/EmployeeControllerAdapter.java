@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  * To change this template use File | Settings | File Templates.
  */
 @RestController
-@RequestMapping("/employees/")
+@RequestMapping("/employees")
 public class EmployeeControllerAdapter implements EmployeeUIPort {
 
     @Autowired
